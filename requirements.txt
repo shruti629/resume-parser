@@ -1,0 +1,10 @@
+streamlit
+PyPDF2
+python-docx
+pdfplumber
+spacy
+scikit-learn
+rapidfuzz
+google-generativeai
+python-dotenv
+reportlab
