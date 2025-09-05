@@ -27,10 +27,10 @@ This tool extracts key information from resumes (PDF/DOCX), analyzes them agains
 ## 🛠️ Tech Stack
 - [Python](https://www.python.org/)  
 - [Streamlit](https://streamlit.io/)  
-- [spaCy](https://spacy.io/) (`en_core_web_sm` model)  
+- [spaCy](https://spacy.io/) 
 - [PyPDF2](https://pypi.org/project/PyPDF2/)  
 - [docx2txt](https://pypi.org/project/docx2txt/)  
-- OpenAI / HuggingFace (for AI suggestions)
+- Google Gemini API
 
 
 
@@ -63,19 +63,26 @@ This tool extracts key information from resumes (PDF/DOCX), analyzes them agains
    
 ## 🎯 Usage
 
-1.) Upload your **Resume (PDF/DOCX)**
+Open the app in your browser after running Streamlit
 
-2.) (Optional) Paste the **Job Description**
+Upload your resume (PDF/DOCX)
 
-3.) Click **Analyze**
+(Optional) Paste the job description
 
-4.) View:
+Extracted structured data
 
-5.) Extracted resume data
+AI-generated ATS optimization tips
 
-6.) ATS improvement suggestions
+Download outputs as JSON or TXT
 
-Download results as **JSON or TXT**
+## 📂 Project Structure
+
+              ├── app.py                # Main Streamlit app
+              ├── requirements.txt      # Project dependencies
+              ├── utils/                # Helper modules (NLP, parsing, etc.)
+              ├── .env                  # API key (ignored by Git)
+              ├── README.md             # Project documentation
+
 
 ## License
 
