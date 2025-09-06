@@ -59,6 +59,11 @@ It extracts important details (Name, Email, Skills, Education, Experience) from 
 5. Run the app:
    ```bash
    streamlit run app.py
+
+6. Open the browser at:
+   
+       http://localhost:8501
+
    
 ## 🎯 Usage
 
