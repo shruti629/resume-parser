@@ -1,8 +1,7 @@
 # 📄 AI-Powered Resume Parser
 
-An AI-powered Resume Parsing and Analysis tool built with **Streamlit, spaCy, and NLP**.  
-This tool extracts key information from resumes (PDF/DOCX), analyzes them against a given job description, and provides **ATS-friendly improvement suggestions**.
-
+An AI-powered Resume Parsing & Analysis Tool built with **Streamlit, spaCy, and Google Gemini API**.
+It extracts important details (Name, Email, Skills, Education, Experience) from resumes (PDF/DOCX), compares them with job descriptions, and provides **ATS-friendly suggestions**.
 
 
 ## 🚀 Features
